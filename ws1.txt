@@ -1,0 +1,15 @@
+What is the purpose of the log message you supply to your git commit?
+
+The log messages detail what changes you made to a staged file 
+
+What do you think makes a good commit message?
+
+A good commit message should be detailed so that others review your changes can understand the differences in versions easily.
+
+When and how often should I be committing my work?
+
+You should commit whenever you make revisions to the staged file.
+
+True or False, you should commit all files (including binaries, images, and log files) to Git.
+
+True.
