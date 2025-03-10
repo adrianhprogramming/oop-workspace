@@ -1,6 +1,6 @@
 #include <iostream>
 
-extern weighted_average(int array[], int n);
+extern double weighted_average(int array[], int n);
 
 int main(){
     int array[] = {1,2,1,4,1,3};

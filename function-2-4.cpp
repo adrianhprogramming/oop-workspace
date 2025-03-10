@@ -5,17 +5,24 @@
 
 bool is_ascending(int array[], int n);
 
+int main(){
+    int array[] = {2};
+    int n = sizeof(array)/sizeof(array[0]);
+    std::cout << std::boolalpha;
+    std::cout << is_ascending(array, n)  << std::endl;
+    return 0;
+}
 
 bool is_ascending(int array[], int n){
     bool ascending = true;
     int i;
-    if (n <= 1)
+    if (n == 0)
     {
     return false;
     }
-    for (i = 0; i < n; i++)
+    for (i = 1; i < n; i++)
     {
-            if (array[i]>array[i+1])
+            if (array[i]< array[i-1])
                 {
                 return false;
                 break;    
