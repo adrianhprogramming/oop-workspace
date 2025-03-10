@@ -1,6 +1,7 @@
 #include <iostream>
 
-extern sum_two_arrays(int array[], int secondarray[], int n);
+extern int sum_two_arrays(int array[], int secondarray[], int n);
+
 
 int main(){
     int array[] = {1,2,1,4,1,3,3};

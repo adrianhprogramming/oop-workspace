@@ -1,1 +1,11 @@
 #include <iostream>
+
+extern void two_five_nine(int array[], int n);
+
+int main(){
+    int array[] = {3,3,3,4,4,4,4,5,5,5,5,5,9,9,9,9,9,9,9,9};
+    int n = sizeof(array)/sizeof(array[0]);
+    
+    std::cout << max_element(array, n)  << std::endl;
+    return 0;
+}

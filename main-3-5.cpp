@@ -1,4 +1,5 @@
 #include <iostream>
+extern double sum_even(double array[], int n);
 
 int main(){
     double array[] = {4, 8, 12, 15, 16};
