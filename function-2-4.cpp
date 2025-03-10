@@ -5,10 +5,11 @@
 
 bool is_ascending(int array[], int n);
 
+
 bool is_ascending(int array[], int n){
     bool ascending = true;
     int i;
-    if (n == 0)
+    if (n <= 1)
     {
     return false;
     }
