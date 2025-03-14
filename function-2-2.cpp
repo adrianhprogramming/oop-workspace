@@ -2,9 +2,9 @@
 #include <cmath>
 #include <string> 
 
-int binary_to_init (int binary_digits[], int number_of_digits);
+int binary_to_int(int binary_digits[], int number_of_digits);
 
-int binary_to_init (int binary_digits[], int number_of_digits){
+int binary_to_int(int binary_digits[], int number_of_digits){
     int n = number_of_digits;
     int decimal = 0;
     for (int i = 0; i < number_of_digits; i++){

@@ -2,7 +2,7 @@
 #include <cmath>
 #include <string> 
 
-extern int binary_to_init (int binary_digits[], int number_of_digits);
+extern int binary_to_int(int binary_digits[], int number_of_digits);
 
 int main(){
 int binary_digits[] = { 1,0,0,1,1,1,0};
