@@ -1,0 +1,38 @@
+#include <iostream>
+#include <cmath>
+#include <string> 
+
+int base_ten_to_two(int number);
+
+int main(){
+int number = 23;
+std::cout << base_ten_to_two(number) << std::endl;
+}
+
+int base_ten_to_two(int number){
+    
+    int i = 0;
+    while ((int)pow(2,i) <= number)
+    {
+        i++;
+    }
+    int base = 0;
+    i = i - 1;
+    if (number == (int)pow(2,i)){
+    base = base + (int)pow(10,i);
+     return base;   /* code */
+    }
+    base = base + (int)pow(10,i);
+
+    int remaind3r = number - (int)pow(2,(i)); 
+    for (int j = 0; j < i; j++)
+    {
+        if (remaind3r < (int)pow(2,(i-1-j))){
+            continue;
+        }
+        remaind3r = remaind3r - (int)pow(2,(i-1-j));
+        base = base + (int)pow(10,(i-1-j));
+    }
+return base;
+}
+
