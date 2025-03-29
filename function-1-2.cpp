@@ -8,8 +8,8 @@ PersonList p;
 p.numPeople = n;
 
 Person* people;
-p.people = people;
 people = new Person[n];
+p.people = people;
 for (int i = 0; i < n; i++)
 {
     people[i].name = "Jane Doe";
@@ -17,7 +17,4 @@ for (int i = 0; i < n; i++)
 }
 return p;
 }
-
-
-
 
