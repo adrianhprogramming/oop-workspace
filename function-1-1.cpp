@@ -12,14 +12,14 @@
 Person* createPersonArray(int n);
 
 Person* createPersonArray(int n){
-int size;
-size = n;
-Person array[size];
+Person* array = new Person[n];
 
-for (int i = 0; i < size; i++)
+for (int i = 0; i < n; i++)
 {
     array[i].name = "John Doe";
     array[i].age = 0;
 }
-return 0;
+delete[] array;
+array = nullptr;
+return array;
 } 
