@@ -1,20 +1,23 @@
 #include <iostream>
 #include "Person.h"
+
+
 PersonList createPersonList(int n);
 PersonList createPersonList(int n){
-PersonList PersonList;
+PersonList p;
+p.numPeople = n;
 
-int* numPeople = new int[n];
-
-Person* array = new Person[n];
+Person* people;
+p.people = people;
+people = new Person[n];
 for (int i = 0; i < n; i++)
 {
-    array[i].name = "Jane Doe";
-    array[i].age = 1;
+    people[i].name = "Jane Doe";
+    people[i].age = 1;        /* code */
+}
+return p;
 }
 
-return PersonList;
-}
 
 
 
