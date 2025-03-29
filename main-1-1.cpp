@@ -1,5 +1,5 @@
 #include <iostream>
-#include "header.h"
+#include "person.h"
 
 
 extern int createPersonArray(int n);
