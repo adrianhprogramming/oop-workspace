@@ -19,7 +19,5 @@ for (int i = 0; i < n; i++)
     array[i].name = "John Doe";
     array[i].age = 0;
 }
-delete[] array;
-array = nullptr;
 return array;
 } 
