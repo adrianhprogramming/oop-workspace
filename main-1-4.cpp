@@ -1,10 +1,10 @@
 #include <iostream>
 #include "Person.h"
 
-extern PersonList deepCopyPersonList(PersonList pl);
+extern PersonList shallowCopyPersonList(PersonList pl);
 
 int main(){
     PersonList pl;
-    deepCopyPersonList(pl);    
+    shallowCopyPersonList(pl);    
     return 0;
     }
