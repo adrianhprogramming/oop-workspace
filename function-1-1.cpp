@@ -1,5 +1,5 @@
 #include <iostream>
-#include "person.h"
+#include "Person.h"
 
 //1-1 Suppose you have a struct called Person that looks like this:
 //Note: create a Person.h files for this struct. Don't forget to add a Header guardLinks to an external site. to this file.
