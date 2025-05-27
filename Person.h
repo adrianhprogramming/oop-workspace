@@ -1,11 +1,17 @@
-#include <iostream>
+#ifndef PERSON_H
+#define PERSON_H
 
-struct Person {
+#include <string>
+
+class Person {
+protected:
     std::string name;
-    int age;
+
+public:
+    Person(const std::string& name);
+    virtual ~Person() = default;
+
+    std::string get_name() const;
 };
 
-struct PersonList {
-    Person* people;
-    int numPeople;
-};
+#endif
