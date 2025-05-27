@@ -1,0 +1,16 @@
+#include <iostream>
+
+int main(){
+
+int * ptr, i;
+i = 11;
+
+ptr = &i;
+
+std::cout << ptr << std::endl;
+std::cout << *ptr << std::endl;
+
+
+return 0;
+}
+

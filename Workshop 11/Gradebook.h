@@ -1,0 +1,17 @@
+// Gradebook.h
+#ifndef GRADEBOOK_H
+#define GRADEBOOK_H
+
+#include <vector>
+#include "Grade.h"
+
+class Gradebook {
+private:
+    std::vector<Grade> grades;
+
+public:
+    void addGrade(int student_id, int course_id, const std::string& assignment, int value);
+    std::vector<Grade> get_grades() const;
+};
+
+#endif
