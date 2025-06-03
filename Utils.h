@@ -1,7 +1,7 @@
 //NOTE: This file is for testing and is not meant to be submitted.
 
-#ifndef UTILS.H
-#define UTILS.H
+#ifndef UTILS
+#define UTILS
 #include <cstdlib>
 #include <tuple>
 #include <iostream>
@@ -13,7 +13,7 @@
 class utils{
     public:
     // Accepts two ints and returns a tuple object.
-    
+
     // Returns a random position within a grid represented by gridWidth and gridHeight as a std::tuple<int, int>.
     static std::tuple<int,int> generateRandomPos(int gridWidth, int gridHeight){
     int x = rand() % gridWidth;
@@ -61,4 +61,4 @@ class utils{
 
 
 
-#endif
+#endif // UTILS
