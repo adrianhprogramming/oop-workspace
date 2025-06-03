@@ -10,7 +10,7 @@
 //function reads a reference of the original tuple, and will not overrite the 2 ints called pos
 //This function reads out the euclidean distance
 
-class utils{
+class Utils{
     public:
     // Accepts two ints and returns a tuple object.
 
