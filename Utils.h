@@ -30,9 +30,9 @@ class Utils{
         
         //this is how you read a variable from a location in the vector
         int x1 = std::get<0>(pos1);
-        int y1 = std::get<0>(pos1);
+        int y1 = std::get<1>(pos1);
         int x2 = std::get<0>(pos2);
-        int y2 = std::get<0>(pos2);
+        int y2 = std::get<1>(pos2);
 
         //Using formula of euclidean distance
         eucDistance = std::sqrt(
